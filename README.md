@@ -36,16 +36,11 @@ Travlr is a full-stack travel application that combines an intuitive user interf
 - Real-time updates and notifications for itinerary changes
 - User-friendly frontend for easy navigation
 
-<!-- GETTING STARTED: Instructions on setting up and starting the project -->
-## Getting Started
-To set up the Travlr project locally:
-```bash
-git clone https://github.com/johnhamwi/travlr
-cd travlr
-npm install
-npm start
-
 <!-- EXAMPLES OF USAGE: Examples showing how to use the project -->
+## Examples of Usage
+Here's an example of how to set up the basic server and test the API:
+
+```javascript
 // Initialize the server
 const express = require('express');
 const app = express();
@@ -59,11 +54,28 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
 });
+```
 
 <!-- CONTRIBUTING: Guidelines for contributing to the project -->
+## Contributing
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/your-feature`)
+3. Commit your Changes (`git commit -m 'Add new feature'`)
+4. Push to the Branch (`git push origin feature/your-feature`)
+5. Open a Pull Request
 
 
-Contact
-John Hamwi - @Trippixn - john.hamwi10@gmail.com
+<!-- LICENSE: Information about the project's license -->
+## License
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-Project Link: https://github.com/johnhamwi/travlr
+<!-- CONTACT: Contact information for the project maintainer -->
+## Contact
+John Hamwi - [@Trippixn](https://twitter.com/trippixn) - john.hamwi10@gmail.com
+
+Project Link: [https://github.com/johnhamwi/travlr](https://github.com/johnhamwi/travlr)
